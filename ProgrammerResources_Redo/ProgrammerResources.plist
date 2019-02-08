@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StackOverflow</key>
+	<dict>
+		<key>description</key>
+		<string>Q&amp;A site with thousands of questions on iOS and other types of programming</string>
+		<key>url</key>
+		<string>https://stackoverflow.com</string>
+		<key>name</key>
+		<string>Stack Overflow</string>
+	</dict>
+	<key>Swift Documentation</key>
+	<dict>
+		<key>description</key>
+		<string>Apple&apos;s official Swift book</string>
+		<key>name</key>
+		<string>Swift Book</string>
+		<key>url</key>
+		<string>https://docs.swift.org/swift-book/</string>
+	</dict>
+</dict>
+</plist>
