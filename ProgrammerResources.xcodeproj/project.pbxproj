@@ -39,17 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E7607051220DDF1400402A4B /* ProgrammerResources_Redo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammerResources_Redo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7607051220DDF1400402A4B /* ProgrammerResources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammerResources.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7607054220DDF1400402A4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7607056220DDF1400402A4B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E7607059220DDF1400402A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E760705B220DDF1600402A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E760705E220DDF1600402A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7607060220DDF1600402A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7607065220DDF1600402A4B /* ProgrammerResources_RedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammerResources_RedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7607065220DDF1600402A4B /* ProgrammerResourcesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammerResourcesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7607069220DDF1600402A4B /* ProgrammerResources_RedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerResources_RedoTests.swift; sourceTree = "<group>"; };
 		E760706B220DDF1600402A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7607070220DDF1600402A4B /* ProgrammerResources_RedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammerResources_RedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7607070220DDF1600402A4B /* ProgrammerResourcesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammerResourcesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7607074220DDF1600402A4B /* ProgrammerResources_RedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerResources_RedoUITests.swift; sourceTree = "<group>"; };
 		E7607076220DDF1600402A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7607082220DDF6300402A4B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		E7607048220DDF1400402A4B = {
 			isa = PBXGroup;
 			children = (
-				E7607053220DDF1400402A4B /* ProgrammerResources_Redo */,
-				E7607068220DDF1600402A4B /* ProgrammerResources_RedoTests */,
-				E7607073220DDF1600402A4B /* ProgrammerResources_RedoUITests */,
+				E7607053220DDF1400402A4B /* ProgrammerResources */,
+				E7607068220DDF1600402A4B /* ProgrammerResourcesTests */,
+				E7607073220DDF1600402A4B /* ProgrammerResources_UITests */,
 				E7607052220DDF1400402A4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +97,14 @@
 		E7607052220DDF1400402A4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7607051220DDF1400402A4B /* ProgrammerResources_Redo.app */,
-				E7607065220DDF1600402A4B /* ProgrammerResources_RedoTests.xctest */,
-				E7607070220DDF1600402A4B /* ProgrammerResources_RedoUITests.xctest */,
+				E7607051220DDF1400402A4B /* ProgrammerResources.app */,
+				E7607065220DDF1600402A4B /* ProgrammerResourcesTests.xctest */,
+				E7607070220DDF1600402A4B /* ProgrammerResourcesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E7607053220DDF1400402A4B /* ProgrammerResources_Redo */ = {
+		E7607053220DDF1400402A4B /* ProgrammerResources */ = {
 			isa = PBXGroup;
 			children = (
 				E7607086220DFA7800402A4B /* ProgrammerResources.plist */,
@@ -119,33 +119,33 @@
 				E7607082220DDF6300402A4B /* TableViewController.swift */,
 				E760708C220DFC1400402A4B /* ResourceWebViewController.swift */,
 			);
-			path = ProgrammerResources_Redo;
+			path = ProgrammerResources;
 			sourceTree = "<group>";
 		};
-		E7607068220DDF1600402A4B /* ProgrammerResources_RedoTests */ = {
+		E7607068220DDF1600402A4B /* ProgrammerResourcesTests */ = {
 			isa = PBXGroup;
 			children = (
 				E7607069220DDF1600402A4B /* ProgrammerResources_RedoTests.swift */,
 				E760706B220DDF1600402A4B /* Info.plist */,
 			);
-			path = ProgrammerResources_RedoTests;
+			path = ProgrammerResourcesTests;
 			sourceTree = "<group>";
 		};
-		E7607073220DDF1600402A4B /* ProgrammerResources_RedoUITests */ = {
+		E7607073220DDF1600402A4B /* ProgrammerResources_UITests */ = {
 			isa = PBXGroup;
 			children = (
 				E7607074220DDF1600402A4B /* ProgrammerResources_RedoUITests.swift */,
 				E7607076220DDF1600402A4B /* Info.plist */,
 			);
-			path = ProgrammerResources_RedoUITests;
+			path = ProgrammerResources_UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E7607050220DDF1400402A4B /* ProgrammerResources_Redo */ = {
+		E7607050220DDF1400402A4B /* ProgrammerResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7607079220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResources_Redo" */;
+			buildConfigurationList = E7607079220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResources" */;
 			buildPhases = (
 				E760704D220DDF1400402A4B /* Sources */,
 				E760704E220DDF1400402A4B /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = ProgrammerResources_Redo;
+			name = ProgrammerResources;
 			productName = ProgrammerResources_Redo;
-			productReference = E7607051220DDF1400402A4B /* ProgrammerResources_Redo.app */;
+			productReference = E7607051220DDF1400402A4B /* ProgrammerResources.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E7607064220DDF1600402A4B /* ProgrammerResources_RedoTests */ = {
+		E7607064220DDF1600402A4B /* ProgrammerResourcesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E760707C220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResources_RedoTests" */;
+			buildConfigurationList = E760707C220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResourcesTests" */;
 			buildPhases = (
 				E7607061220DDF1600402A4B /* Sources */,
 				E7607062220DDF1600402A4B /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				E7607067220DDF1600402A4B /* PBXTargetDependency */,
 			);
-			name = ProgrammerResources_RedoTests;
+			name = ProgrammerResourcesTests;
 			productName = ProgrammerResources_RedoTests;
-			productReference = E7607065220DDF1600402A4B /* ProgrammerResources_RedoTests.xctest */;
+			productReference = E7607065220DDF1600402A4B /* ProgrammerResourcesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E760706F220DDF1600402A4B /* ProgrammerResources_RedoUITests */ = {
+		E760706F220DDF1600402A4B /* ProgrammerResourcesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E760707F220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResources_RedoUITests" */;
+			buildConfigurationList = E760707F220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResourcesUITests" */;
 			buildPhases = (
 				E760706C220DDF1600402A4B /* Sources */,
 				E760706D220DDF1600402A4B /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				E7607072220DDF1600402A4B /* PBXTargetDependency */,
 			);
-			name = ProgrammerResources_RedoUITests;
+			name = ProgrammerResourcesUITests;
 			productName = ProgrammerResources_RedoUITests;
-			productReference = E7607070220DDF1600402A4B /* ProgrammerResources_RedoUITests.xctest */;
+			productReference = E7607070220DDF1600402A4B /* ProgrammerResourcesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E760704C220DDF1400402A4B /* Build configuration list for PBXProject "ProgrammerResources_Redo" */;
+			buildConfigurationList = E760704C220DDF1400402A4B /* Build configuration list for PBXProject "ProgrammerResources" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,9 +232,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7607050220DDF1400402A4B /* ProgrammerResources_Redo */,
-				E7607064220DDF1600402A4B /* ProgrammerResources_RedoTests */,
-				E760706F220DDF1600402A4B /* ProgrammerResources_RedoUITests */,
+				E7607050220DDF1400402A4B /* ProgrammerResources */,
+				E7607064220DDF1600402A4B /* ProgrammerResourcesTests */,
+				E760706F220DDF1600402A4B /* ProgrammerResourcesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		E7607067220DDF1600402A4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E7607050220DDF1400402A4B /* ProgrammerResources_Redo */;
+			target = E7607050220DDF1400402A4B /* ProgrammerResources */;
 			targetProxy = E7607066220DDF1600402A4B /* PBXContainerItemProxy */;
 		};
 		E7607072220DDF1600402A4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E7607050220DDF1400402A4B /* ProgrammerResources_Redo */;
+			target = E7607050220DDF1400402A4B /* ProgrammerResources */;
 			targetProxy = E7607071220DDF1600402A4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -498,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammerResources_Redo.app/ProgrammerResources_Redo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammerResources.app/ProgrammerResources";
 			};
 			name = Debug;
 		};
@@ -518,7 +518,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammerResources_Redo.app/ProgrammerResources_Redo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammerResources.app/ProgrammerResources";
 			};
 			name = Release;
 		};
@@ -563,7 +563,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E760704C220DDF1400402A4B /* Build configuration list for PBXProject "ProgrammerResources_Redo" */ = {
+		E760704C220DDF1400402A4B /* Build configuration list for PBXProject "ProgrammerResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7607077220DDF1600402A4B /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7607079220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResources_Redo" */ = {
+		E7607079220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E760707A220DDF1600402A4B /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E760707C220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResources_RedoTests" */ = {
+		E760707C220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResourcesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E760707D220DDF1600402A4B /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E760707F220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResources_RedoUITests" */ = {
+		E760707F220DDF1600402A4B /* Build configuration list for PBXNativeTarget "ProgrammerResourcesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7607080220DDF1600402A4B /* Debug */,
