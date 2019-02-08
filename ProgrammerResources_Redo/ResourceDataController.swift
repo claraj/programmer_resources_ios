@@ -13,12 +13,17 @@ class ResourceDataController {
     let resources: [Resource]
     
     init()  {
-        let plistURL = Bundle.main.url(forResource: "ProgrammerResources", withExtension: ".plist")
-        let resourcesPlist = NSArray(contentsOf: plistURL!)
-//        resources = resourcesPlist.map(Resource.init)
+        let plistURL = Bundle.main.path(forResource: "ProgrammerResources", ofType: ".plist")
+        let resourcesPlist = NSArray(contentsOfFile: plistURL!)
         
-        resources = [ Resource(dictionary: ["name":"sdfsdf", "description":"sdfsf", "url":"http://whatever.com"]) ]
+        var resources: [Resource] = []
+
+        for r in resourcesPlist! {
+            let dict =  r as! [String: String]
+            let res = Resource(dictionary: dict)
+            resources.append(res)
+        }
         
-        print(resourcesPlist)
+        self.resources = resources
     }
 }

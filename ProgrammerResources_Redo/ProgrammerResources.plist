@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>StackOverflow</key>
+<array>
 	<dict>
 		<key>description</key>
 		<string>Q&amp;A site with thousands of questions on iOS and other types of programming</string>
@@ -11,14 +10,21 @@
 		<key>name</key>
 		<string>Stack Overflow</string>
 	</dict>
-	<key>Swift Documentation</key>
 	<dict>
-		<key>description</key>
-		<string>Apple&apos;s official Swift book</string>
 		<key>name</key>
-		<string>Swift Book</string>
+		<string>Human Interface Guidelines</string>
+		<key>description</key>
+		<string>Apple&apos;s guidelines for designing user interfaces to suit iOS devices and decrease the probability of an app being rejected from the app store</string>
 		<key>url</key>
-		<string>https://docs.swift.org/swift-book/</string>
+		<string>https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/</string>
 	</dict>
-</dict>
+	<dict>
+		<key>url</key>
+		<string>https://unsplash.com/</string>
+		<key>description</key>
+		<string>Thousands of completely free high-resolution photographs for use in apps</string>
+		<key>name</key>
+		<string>Unsplash</string>
+	</dict>
+</array>
 </plist>

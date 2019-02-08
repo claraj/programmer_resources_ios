@@ -16,15 +16,8 @@ class ResourceWebViewController: UIViewController {
     @IBOutlet var webView: WKWebView!
     
     override func viewDidAppear(_ animated: Bool) {
-        print("hello")
-        
-//        let urstr = "https://minneapolis.edu"
-//        let url = URL(string: urstr)
         let request = URLRequest(url: resource.url)
         webView.load(request)
-        
-        
-        
     }
     
 }
