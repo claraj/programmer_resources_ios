@@ -15,12 +15,18 @@ class DetailViewController: UIViewController {
     @IBOutlet var descr: UILabel!
     @IBOutlet var url: UILabel!
     
-    var resource: Resource!
+    var resource: Resource! {
+        didSet {
+            navigationItem.title = resource.name
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("DSFDSGDFG")
+        
+        navigationItem.backBarButtonItem?.title = "Resources"
         
         name!.text = resource.name
         descr.text = resource.description
@@ -37,6 +43,14 @@ class DetailViewController: UIViewController {
         
         performSegue(withIdentifier: "showWebView", sender: self)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showWebView" {
+            let webView = segue.destination as! ResourceWebViewController
+            webView.resource = resource 
+        }
+    }
+    
 
 }
 

@@ -11,17 +11,19 @@ import UIKit
 
 class ResourceWebViewController: UIViewController {
     
-    var url: URL?
+    var resource: Resource!
     
     @IBOutlet var webView: WKWebView!
     
     override func viewDidAppear(_ animated: Bool) {
         print("hello")
         
-        let urstr = "https://minneapolis.edu"
-        let url = URL(string: urstr)
-        let request = URLRequest(url: url!)
+//        let urstr = "https://minneapolis.edu"
+//        let url = URL(string: urstr)
+        let request = URLRequest(url: resource.url)
         webView.load(request)
+        
+        
         
     }
     
