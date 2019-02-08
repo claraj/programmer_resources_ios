@@ -15,10 +15,16 @@ class DetailViewController: UIViewController {
     @IBOutlet var descr: UILabel!
     @IBOutlet var url: UILabel!
     
+    var resource: Resource!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("DSFDSGDFG")
+        
+        name!.text = resource.name
+        descr.text = resource.description
+        url.text = resource.url.absoluteString
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(DetailViewController.showWeb))
         
@@ -28,6 +34,8 @@ class DetailViewController: UIViewController {
     
     @objc func showWeb() {
         print("label tapped" )
+        
+        performSegue(withIdentifier: "showWebView", sender: self)
     }
 
 }

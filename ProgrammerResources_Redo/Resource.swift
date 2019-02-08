@@ -18,9 +18,9 @@ struct Resource {
 extension Resource {
     
     init (dictionary: [String: String]) {
-        name = dictionary["name"] as! String
-        description = dictionary["description"] as! String
-        let urlString = dictionary["url"] as! String
+        name = dictionary["name"]! as String
+        description = dictionary["description"]! as String
+        let urlString = dictionary["url"]! as String
         url = URL(string: urlString)!
     }
 }
