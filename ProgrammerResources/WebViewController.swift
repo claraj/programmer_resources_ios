@@ -9,7 +9,7 @@
 import WebKit
 import UIKit
 
-class ResourceWebViewController: UIViewController {
+class WebViewController: UIViewController {
     
     var resource: Resource!
     

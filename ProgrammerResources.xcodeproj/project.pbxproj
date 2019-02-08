@@ -18,7 +18,7 @@
 		E7607087220DFA7900402A4B /* ProgrammerResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7607086220DFA7800402A4B /* ProgrammerResources.plist */; };
 		E760708A220DFA8B00402A4B /* ResourceDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7607088220DFA8B00402A4B /* ResourceDataController.swift */; };
 		E760708B220DFA8B00402A4B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7607089220DFA8B00402A4B /* Resource.swift */; };
-		E760708D220DFC1400402A4B /* ResourceWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760708C220DFC1400402A4B /* ResourceWebViewController.swift */; };
+		E760708D220DFC1400402A4B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760708C220DFC1400402A4B /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		E7607086220DFA7800402A4B /* ProgrammerResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProgrammerResources.plist; sourceTree = "<group>"; };
 		E7607088220DFA8B00402A4B /* ResourceDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceDataController.swift; sourceTree = "<group>"; };
 		E7607089220DFA8B00402A4B /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		E760708C220DFC1400402A4B /* ResourceWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceWebViewController.swift; sourceTree = "<group>"; };
+		E760708C220DFC1400402A4B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				E7607060220DDF1600402A4B /* Info.plist */,
 				E7607056220DDF1400402A4B /* DetailViewController.swift */,
 				E7607082220DDF6300402A4B /* TableViewController.swift */,
-				E760708C220DFC1400402A4B /* ResourceWebViewController.swift */,
+				E760708C220DFC1400402A4B /* WebViewController.swift */,
 			);
 			path = ProgrammerResources;
 			sourceTree = "<group>";
@@ -273,7 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7607057220DDF1400402A4B /* DetailViewController.swift in Sources */,
-				E760708D220DFC1400402A4B /* ResourceWebViewController.swift in Sources */,
+				E760708D220DFC1400402A4B /* WebViewController.swift in Sources */,
 				E760708A220DFA8B00402A4B /* ResourceDataController.swift in Sources */,
 				E7607083220DDF6300402A4B /* TableViewController.swift in Sources */,
 				E760708B220DFA8B00402A4B /* Resource.swift in Sources */,
@@ -453,7 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ProgrammerResources_Redo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProgrammerResources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ProgrammerResources_Redo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ProgrammerResources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

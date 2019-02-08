@@ -39,7 +39,7 @@ class DetailViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showWebView" {
-            let webView = segue.destination as! ResourceWebViewController
+            let webView = segue.destination as! WebViewController
             webView.resource = resource 
         }
     }
