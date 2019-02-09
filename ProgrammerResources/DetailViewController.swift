@@ -27,7 +27,7 @@ class DetailViewController: UIViewController {
         descr.text = resource.description
         url.text = resource.url.absoluteString
         
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(showWeb))
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DetailViewController.showWeb))
         
         url.addGestureRecognizer(tapGestureRecognizer)
     }
