@@ -107,15 +107,15 @@
 		E7607053220DDF1400402A4B /* ProgrammerResources */ = {
 			isa = PBXGroup;
 			children = (
+				E7607054220DDF1400402A4B /* AppDelegate.swift */,
+				E760705B220DDF1600402A4B /* Assets.xcassets */,
+				E7607056220DDF1400402A4B /* DetailViewController.swift */,
+				E7607060220DDF1600402A4B /* Info.plist */,
+				E760705D220DDF1600402A4B /* LaunchScreen.storyboard */,
+				E7607058220DDF1400402A4B /* Main.storyboard */,
 				E7607086220DFA7800402A4B /* ProgrammerResources.plist */,
 				E7607089220DFA8B00402A4B /* Resource.swift */,
 				E7607088220DFA8B00402A4B /* ResourceDataController.swift */,
-				E7607054220DDF1400402A4B /* AppDelegate.swift */,
-				E7607058220DDF1400402A4B /* Main.storyboard */,
-				E760705B220DDF1600402A4B /* Assets.xcassets */,
-				E760705D220DDF1600402A4B /* LaunchScreen.storyboard */,
-				E7607060220DDF1600402A4B /* Info.plist */,
-				E7607056220DDF1400402A4B /* DetailViewController.swift */,
 				E7607082220DDF6300402A4B /* TableViewController.swift */,
 				E760708C220DFC1400402A4B /* WebViewController.swift */,
 			);

@@ -23,14 +23,13 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        navigationItem.backBarButtonItem?.title = "Resources"
-        
-        name!.text = resource.name
+        name.text = resource.name
         descr.text = resource.description
         url.text = resource.url.absoluteString
         
-        let tapGuestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DetailViewController.showWeb))
-        url.addGestureRecognizer(tapGuestureRecognizer)
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(showWeb))
+        
+        url.addGestureRecognizer(tapGestureRecognizer)
     }
 
     @objc func showWeb() {
@@ -40,7 +39,7 @@ class DetailViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showWebView" {
             let webView = segue.destination as! WebViewController
-            webView.resource = resource 
+            webView.url = resource.url
         }
     }
     

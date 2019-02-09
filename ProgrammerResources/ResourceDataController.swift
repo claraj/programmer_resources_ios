@@ -8,8 +8,8 @@
 
 import Foundation
 
-
 class ResourceDataController {
+    
     let resources: [Resource]
     
     init()  {
@@ -27,3 +27,7 @@ class ResourceDataController {
         self.resources = resources
     }
 }
+
+
+
+
